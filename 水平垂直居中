@@ -44,13 +44,13 @@
       justify-content: center;  /*子元素水平居中*/
       align-items:center;   /*子元素垂直居中*/
       display:-webkit-flex;
+      
+      /* 要兼容安卓4.4以下用旧版flexbox
+      display: -webkit-flex-box;
+      box-pack:center;
+      box-align:center;
+      */
     }
-    /*#centent{
-      position:absolute;
-      top:50%;
-      left:50%;
-      -webkit-transform:translate(-50%,-50%);
-    }*/
   </style>
 </head>
 <body>
@@ -59,3 +59,4 @@
   </div>
 </body>
 </html>
+
